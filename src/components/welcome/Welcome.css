@@ -1,0 +1,87 @@
+.homepage-wrapper{
+width: 100%;
+/* height:calc( 100vh - 50px ); */
+display: flex;
+flex-direction: column;
+}
+
+.header{
+width: 100%;
+height: 120px;
+background-image: linear-gradient(to left bottom, #640bbb, #6a09c8, #7007d5, #7504e2, #7b01f0);
+padding-left: 5%;
+
+}
+
+.header-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.links-wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding-left: 20%;
+  
+}
+
+.link{
+  margin-left: 5%;
+  width: 20%;
+  cursor: pointer;
+}
+
+.link:hover{
+text-decoration: underline;
+}
+.header-icon-container{
+  display: flex;
+  flex-direction: row;
+}
+.icon-text{
+  font-size: 15px;
+  margin: 5%;
+  
+}
+
+.body{
+  width: 100%;
+  min-height: 735px;
+}
+.search-input-wrapper{
+  margin-top: 7%;
+}
+
+.footer{
+  width: 100%;
+  height:150px ;
+}
+.footer-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-upper-section{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+}
+
+.welcome-title{
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10%;
+  font-weight:bold;
+}
+
+.footer-down-section{
+  width: 100%;
+  text-align: center;
+}
